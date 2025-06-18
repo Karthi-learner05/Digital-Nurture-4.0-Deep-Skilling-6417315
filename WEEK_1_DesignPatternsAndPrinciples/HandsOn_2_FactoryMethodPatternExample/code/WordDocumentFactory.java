@@ -1,4 +1,4 @@
-package WEEK_1.Design_Patterns_and_Principles.FactoryMethodPatternExample;
+package WEEK_1_DesignPatternsAndPrinciples.HandsOn_2_FactoryMethodPatternExample.code;
 
 public class WordDocumentFactory extends DocumentFactory {
     public Document createDocument() {

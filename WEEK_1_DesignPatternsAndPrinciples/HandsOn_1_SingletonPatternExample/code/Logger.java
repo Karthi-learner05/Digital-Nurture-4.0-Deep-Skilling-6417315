@@ -1,4 +1,4 @@
-package WEEK_1.Design_Patterns_and_Principles.SingletonPatternExample;
+package WEEK_1_DesignPatternsAndPrinciples.HandsOn_1_SingletonPatternExample.code;
 
 public class Logger {
     private static Logger instance;
