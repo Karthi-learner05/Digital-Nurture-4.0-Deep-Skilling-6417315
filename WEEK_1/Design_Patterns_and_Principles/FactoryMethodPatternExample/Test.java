@@ -1,4 +1,4 @@
-package WEEK_1.FactoryMethodPatternExample;
+package WEEK_1.Design_Patterns_and_Principles.FactoryMethodPatternExample;
 
 import java.util.Scanner;
 

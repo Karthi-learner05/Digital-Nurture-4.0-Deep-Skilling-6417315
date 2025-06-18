@@ -1,4 +1,4 @@
-package WEEK_1.SingletonPatternExample;
+package WEEK_1.Design_Patterns_and_Principles.SingletonPatternExample;
 public class Test {
     public static void main(String[] args) {
         Logger logger1 = Logger.getInstance();
