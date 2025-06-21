@@ -1,13 +1,13 @@
 # E-commerce Platform Search Function
 
-    This solution involves on implementing the ```Linear Search``` and ```Binary Search``` on an E-Commerce platform.
+This solution involves on implementing the ```Linear Search``` and ```Binary Search``` on an E-Commerce platform.
 
 ## Big O Notation
-    Big O Notation is a mathematical way to describe worst case pf an algorithm’s runtime or space grows with the size of input ```n```.
+Big O Notation is a mathematical way to describe worst case pf an algorithm’s runtime or space grows with the size of input ```n```.
 
 ## Product Class
 
-    This class was used to Create an product database type along with their name,id and category.Here I used the ```Builder``` pattern to reduce the complexity of new product creation.
+This class was used to Create an product database type along with their name,id and category.Here I used the ```Builder``` pattern to reduce the complexity of new product creation.
 
 ``` java
 
@@ -65,7 +65,7 @@ public class Product {
 
 ## Factory pattern implementation
 
-    Here I used the Factory pattern to hide the usage of Class for the Search methods.
+Here I used the Factory pattern to hide the usage of Class for the Search methods.
 
 ### Search interface
 
@@ -79,7 +79,7 @@ public interface Search {
 
 ### SearchFactory
 
-    This class was used to select the Class of for the search either ```Linear``` or ```Binary```.
+This class was used to select the Class of for the search either ```Linear``` or ```Binary```.
 
 ``` java
 
@@ -98,10 +98,11 @@ public class SearchFactory {
 
 ```
 ## Search Methods
+Search methods are used to check whether the product is available in ```product[]``` or not.
 
 ### LinearSearch
 
-    It search the product in ```product[]``` one by one product sequentially.
+It search the product in ```product[]``` one by one product sequentially.
 
 ``` java
 
@@ -126,7 +127,7 @@ public class LinearSearch implements Search {
 
 ### BinarySearch
 
-    It search the product in the ```product[]``` by using the mid value.
+It search the product in the ```product[]``` by using the mid value.
 
 ``` java
 
@@ -163,15 +164,15 @@ public class BinarySearch implements Search {
 
 ```
 ### Comparison of Search methods
-
-        | Algorithm         | Best Case | Average Case | Worst Case | Time Complexity             |
-        | ----------------- | --------- | ------------ | ---------- | --------------------------- |
-        | **Linear Search** | Ω(1)      | Θ(n)         | O(n)       | Slow for large arrays       |
-        | **Binary Search** | Ω(1)      | Θ(log n)     | O(log n)   | Fast, requires sorted array |
+    
+| Algorithm         | Best Case | Average Case | Worst Case | Time Complexity             |
+| ----------------- | --------- | ------------ | ---------- | --------------------------- |
+| **Linear Search** | Ω(1)      | Θ(n)         | O(n)       | Slow for large arrays       |
+| **Binary Search** | Ω(1)      | Θ(log n)     | O(log n)   | Fast, requires sorted array |
 
 ## Client Code
 
-    This was the actual code given to the user which is visible.For the implementation I have initiallized some of the products in ```product[]```.
+This was the actual code given to the user which is visible.For the implementation I have initiallized some of the products in ```product[]```.
 
 ``` java
 
