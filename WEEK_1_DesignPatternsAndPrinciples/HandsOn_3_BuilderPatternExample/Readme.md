@@ -1,4 +1,4 @@
-# BUILDER PATTER EXAMPLE
+# BUILDER PATTERN EXAMPLE
 
 This invloves in the implementation of the ```Builder Pattern``` for building an computer.
 
