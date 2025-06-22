@@ -6,8 +6,9 @@ This solution was used to predict the future value of an ```Initial Value``` bas
 
 Recursion is a programming technique where a method calls itself to solve a smaller instance of the same problem.
 
-**It reduces complex repetitive logic into simpler, self-repeating rules.
-**It’s ideal when a problem can be broken into smaller subproblems.
+->It reduces complex repetitive logic into simpler, self-repeating rules.
+
+->It’s ideal when a problem can be broken into smaller subproblems.
 
 ## Financial Class
 
