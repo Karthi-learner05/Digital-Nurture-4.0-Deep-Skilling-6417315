@@ -4,64 +4,64 @@ This involves in sorting of the customer orders in an E-Commerce platform by usi
 
 ## Sorting Algorithms
 
-### 1. Bubble Sort:
+### ➡️ 1. Bubble Sort:
 
 Compares adjacent elements and swaps if they are in the wrong order.
 
-```Time Complexity```
+⌚```Time Complexity```
 
 **Best      : O(n)**
 **Average   : O(n²)**
 **Worst     : O(n²)**
 
-```Use case```
+🛠️```Use case```
 
-**Very small or nearly sorted datasets.**
+->Very small or nearly sorted datasets
 
-### 2. Insertion Sort:
+### ➡️ 2. Insertion Sort:
 
 Builds the sorted array one element at a time.
 
-```Time Complexity```
+⌚```Time Complexity```
 
 **Best      : O(n)**
 **Average   : O(n²)**
 **Worst     : O(n²)**
 
-```Use case```
+🛠️```Use case```
 
-**Small datasets**
-**real-time systems**
+->Small datasets  
+->real-time systems
 
-### 3. Quick Sort:
+### ➡️ 3. Quick Sort:
 
 Divide-and-conquer. Picks a pivot and partitions the array.
 
-```Time Complexity```
+⌚```Time Complexity```
 
 **Best      : O(n logn)**
 **Average   : O(n logn)**
 **Worst     : O(n²)**
 
-```Use case```
+🛠️```Use case```
 
-**General-purpose**
-**fast in practice**
+->General-purpose  
+->fast in practice
 
-### 4. Merge Sort:
+### ➡️ 4. Merge Sort:
 
 Divide-and-conquer. Recursively splits and merges.
 
-```Time Complexity```
+⌚```Time Complexity```
 
 **Best      : O(n logn)**
 **Average   : O(n logn)**
 **Worst     : O(n logn)**
 
-```Use case```
+🛠️```Use case```
 
-**Stable sorting**
-**works well with linked lists and large datasets**
+->Stable sorting  
+->works well with linked lists and large datasets
 
 ## Order Class
 
