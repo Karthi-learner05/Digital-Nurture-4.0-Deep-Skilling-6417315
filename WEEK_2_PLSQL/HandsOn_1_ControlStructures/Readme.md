@@ -4,75 +4,65 @@ In this I have implemented the database schema provided and added my own values 
 
 ## SCHEMA
 ---------------------------
-### CUSTOMER
 
-+-------------+--------+----------------+
-| Column Name | Null?  | Type           |
-+-------------+--------+----------------+
-| CUSTOMERID  | NOT NULL | NUMBER        |
-| NAME        |          | VARCHAR2(100) |
-| DOB         |          | DATE          |
-| BALANCE     |          | NUMBER        |
-| LASTMODIFIED|          | DATE          |
-| ISVIP       |          | CHAR(1)       |
-+-------------+--------+----------------+
+***``` Customer```***
+
+| Column Name   | Null?     | Type           |
+|---------------|-----------|----------------|
+| CUSTOMERID    | NOT NULL  | NUMBER         |
+| NAME          |           | VARCHAR2(100)  |
+| DOB           |           | DATE           |
+| BALANCE       |           | NUMBER         |
+| LASTMODIFIED  |           | DATE           |
+| ISVIP         |           | CHAR(1)        |
+
+***``` Transaction ```***
+
+| Column Name      | Null?     | Type           |
+|------------------|-----------|----------------|
+| TRANSACTIONID    | NOT NULL  | NUMBER         |
+| ACCOUNTID        |           | NUMBER         |
+| TRANSACTIONDATE  |           | DATE           |
+| AMOUNT           |           | NUMBER         |
+| TRANSACTIONTYPE  |           | VARCHAR2(10)   |
+
+***``` Account ```***
+
+| Column Name   | Null?     | Type           |
+|---------------|-----------|----------------|
+| ACCOUNTID     | NOT NULL  | NUMBER         |
+| CUSTOMERID    |           | NUMBER         |
+| ACCOUNTTYPE   |           | VARCHAR2(20)   |
+| BALANCE       |           | NUMBER         |
+| LASTMODIFIED  |           | DATE           |
+
+***``` Employee ```***
+
+| Column Name | Null?     | Type           |
+|-------------|-----------|----------------|
+| EMPLOYEEID  | NOT NULL  | NUMBER         |
+| NAME        |           | VARCHAR2(100)  |
+| POSITION    |           | VARCHAR2(50)   |
+| SALARY      |           | NUMBER         |
+| DEPARTMENT  |           | VARCHAR2(50)   |
+| HIREDATE    |           | DATE           |
+
+***``` Loan```***
+
+| Column Name   | Null?     | Type           |
+|---------------|-----------|----------------|
+| LOANID        | NOT NULL  | NUMBER         |
+| CUSTOMERID    |           | NUMBER         |
+| LOANAMOUNT    |           | NUMBER         |
+| INTERESTRATE  |           | NUMBER         |
+| STARTDATE     |           | DATE           |
+| ENDDATE       |           | DATE           |
 
 
-### TRANSACTIONS
-
-+------------------+----------+------------------+
-| Column Name      | Null?    | Type             |
-+------------------+----------+------------------+
-| TRANSACTIONID    | NOT NULL | NUMBER           |
-| ACCOUNTID        |          | NUMBER           |
-| TRANSACTIONDATE  |          | DATE             |
-| AMOUNT           |          | NUMBER           |
-| TRANSACTIONTYPE  |          | VARCHAR2(10)     |
-+------------------+----------+------------------+
-
-
-### ACCOUNT
-
-
-+-------------+----------+------------------+
-| Column Name | Null?    | Type             |
-+-------------+----------+------------------+
-| ACCOUNTID   | NOT NULL | NUMBER           |
-| CUSTOMERID  |          | NUMBER           |
-| ACCOUNTTYPE |          | VARCHAR2(20)     |
-| BALANCE     |          | NUMBER           |
-| LASTMODIFIED|          | DATE             |
-+-------------+----------+------------------+
-
-
-### EMPLOYEE
-
-+-------------+----------+------------------+
-| Column Name | Null?    | Type             |
-+-------------+----------+------------------+
-| EMPLOYEEID  | NOT NULL | NUMBER           |
-| NAME        |          | VARCHAR2(100)    |
-| POSITION    |          | VARCHAR2(50)     |
-| SALARY      |          | NUMBER           |
-| DEPARTMENT  |          | VARCHAR2(50)     |
-| HIREDATE    |          | DATE             |
-+-------------+----------+------------------+
-
-
-### LOAN
-
-+--------------+----------+------------------+
-| Column Name  | Null?    | Type             |
-+--------------+----------+------------------+
-| LOANID       | NOT NULL | NUMBER           |
-| CUSTOMERID   |          | NUMBER           |
-| LOANAMOUNT   |          | NUMBER           |
-| INTERESTRATE |          | NUMBER           |
-| STARTDATE    |          | DATE             |
-| ENDDATE      |          | DATE             |
-+--------------+----------+------------------+
 
 ***I have mentioned the data's added in these tables in output picture by these table names***
+
+---------------------------
 
 ## SCENARIO 1
 
@@ -118,7 +108,7 @@ END;
 
 ```
 
-## SCENARIO 2
+## SCENARIO 3
 
 I sended remainder to the peoples who needs to be pay the loan due within 30 days(1 month).
 
