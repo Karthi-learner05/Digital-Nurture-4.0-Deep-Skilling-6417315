@@ -26,7 +26,7 @@ I have added the dependancy for the Junit in the project using the ```pom.xml```
 
 This class is responsible for holding the functonalities and which will be tested by an test class.
 
-*** ``` Calculators.java ``` ***
+***``` Calculators.java ```***
 
 ``` java
 
@@ -52,7 +52,7 @@ public class Calculator {
 This class is responsible for testing Calculator class. I have implemented AAA pattern to write test and teardown process to free the memory after each test completion.
 
 
-*** ``` MathUtilsTest.java ``` ***
+***``` CalculatorTest.java ```***
 
 ``` java
 
@@ -114,7 +114,7 @@ public class CalculatorTest {
 
 ```
 
-#### *** AAA PATTERN ***
+#### ***AAA PATTERN***
 
 AAA Pattern was used to arrange , act and assert code in very efficient way. In the Test class I have done this by the following,
 
@@ -153,7 +153,7 @@ After the Arrange and act is completed this assert operation comes to the play w
 
 I have made setup and ddone teardown process using the Annotations ```Befor``` and ```After``` whch was used to perform the setup operation and teardown operation befor and after each tests respectively.
 
-*** Setup ***
+***Setup***
 
 ``` java
 
@@ -165,7 +165,7 @@ I have made setup and ddone teardown process using the Annotations ```Befor``` a
 
 ```
 
-*** After ***
+***After***
 
 ``` java
 
@@ -181,9 +181,9 @@ I have made setup and ddone teardown process using the Annotations ```Befor``` a
 
 I have tested my assertion functionalities Test is working or not using the terminal command
 
-            ``` bash
-                mvn test
-            ```
+``` bash
+    mvn test
+```
 
 ``` bash
 
