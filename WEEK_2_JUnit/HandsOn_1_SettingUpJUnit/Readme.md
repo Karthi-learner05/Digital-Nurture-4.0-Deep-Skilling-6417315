@@ -58,7 +58,7 @@ public class CalculatorTest {
 
 I have tested my Test is working or not using the terminal command
             ``` bash
-                maven test
+                mvn test
             ```
 
 ``` bash
