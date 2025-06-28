@@ -10,6 +10,12 @@ This repository contains all mandatory ```hands-on solutions``` and some additio
 - ✅ Design Patterns and Principles
 - ✅ Data Structures and Algorithms
 
+### Week 2: 
+- ✅ PL/SQL
+- ✅ JUnit
+- ✅ Mockito
+- ✅ SLF4J
+  
 ---
 
 ## ⚙ Tech Used
