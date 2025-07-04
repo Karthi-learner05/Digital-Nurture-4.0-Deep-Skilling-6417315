@@ -15,6 +15,11 @@ This repository contains all mandatory ```hands-on solutions``` and some additio
 - ✅ JUnit
 - ✅ Mockito
 - ✅ SLF4J
+
+### Week 3: 
+- ✅ Spring Core and Maven
+- ✅ Spring Data JPA
+- ✅ Hibernate
   
 ---
 
