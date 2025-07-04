@@ -1,4 +1,4 @@
-## 🔍 Exercise 2: Spring Dependency Injection using XML
+## Spring Dependency Injection using XML
 
 In this project, I implemented a basic Library Management System using **Spring Core**. The application demonstrates **Setter-based Dependency Injection** using **XML configuration**. The `BookService` depends on a `BookRepository`, and Spring handles the injection using the `applicationContext.xml` file.
 
