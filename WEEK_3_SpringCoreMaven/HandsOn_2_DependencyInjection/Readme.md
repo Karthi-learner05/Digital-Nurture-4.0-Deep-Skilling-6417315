@@ -136,6 +136,8 @@ public class LibraryApp {
 
 ### ✅ Output
 ```
-Book Name: The Spring in Action
+[DI Success] BookRepository injected into BookService
+[BookService] Book Name: Spring Boot in Action
+
 ```
 
