@@ -73,10 +73,6 @@ Contains the `country.xml` file with the following bean configuration:
     <property name="name" value="India" />
 </bean>
 ```
-
-### `src/test/java`
-Currently not used but meant for unit testing Java code.
-
 ---
 
 ## pom.xml
