@@ -1,7 +1,7 @@
 
 # REST - Get Country by Country Code
 
-In this project, we created a RESTful Web Service using Spring Boot that returns a specific country based on its country code. The data is loaded from an external Spring XML configuration file (`country.xml`), and the country code matching is performed in a case-insensitive manner.
+In this project,I created a RESTful Web Service using Spring Boot that returns a specific country based on its country code. The data is loaded from an external Spring XML configuration file (`country.xml`), and the country code matching is performed in a case-insensitive manner.
 
 ---
 
@@ -64,7 +64,7 @@ In this project, we created a RESTful Web Service using Spring Boot that returns
 
 ---
 
-## Country.java (Model)
+## Country.java
 
 ```java
 package com.cognizant.spring_learn.model;
@@ -163,3 +163,5 @@ public class SpringLearnApplication {
 }
 ```
 
+
+---
