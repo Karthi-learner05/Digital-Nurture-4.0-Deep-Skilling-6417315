@@ -20,6 +20,10 @@ This repository contains all mandatory ```hands-on solutions``` and some additio
 - ✅ Spring Core and Maven
 - ✅ Spring Data JPA
 - ✅ Hibernate
+- 
+### Week 4: 
+- ✅ Spring REST
+- ✅ JWT
   
 ---
 
