@@ -27,6 +27,9 @@ This repository contains all mandatory ```hands-on solutions``` and some additio
 
 ### Week 5: 
 - ✅ Microservices
+- 
+### Week 6: 
+- ✅ React
   
 ---
 
