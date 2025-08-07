@@ -27,14 +27,17 @@ This repository contains all mandatory ```hands-on solutions``` and some additio
 
 ### Week 5: 
 - ✅ Microservices
-- 
-### Week 6: 
+
+### Week 6&7: 
 - ✅ React
+
+### Week 8: 
+- ✅ Git
   
 ---
 
 ## ⚙ Tech Used
-Java 
+Java PL/SQL Mockito Spring Hibernate SpringREST React Git
 ---
 
 ## 👤 Author
