@@ -37,7 +37,7 @@ This repository contains all mandatory ```hands-on solutions``` and some additio
 ---
 
 ## ⚙ Tech Used
-Java PL/SQL Mockito Spring Hibernate SpringREST React Git
+Java • PL/SQL • Mockito • Spring • Hibernate • SpringREST • React • Git
 ---
 
 ## 👤 Author
